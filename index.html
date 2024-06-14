@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background-image: url(./blue.svg), url(./purple.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: 60%, 40%;
+    background-position-y: top, center;
+}
+
+body {
+    background: #171942f0;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-size: x-small;
+    font-style: normal;
+}
+.heading {
+    font-size: xx-large;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+section.heading_section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+p.subheading {
+    font-size: x-small;
+    width: 31%;
+    display: flex;
+    text-align: center;
+    margin-top: 1%;
+}
+
+section.btn_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.annual {
+    background: #e9e2e2d9;
+    color: black;
+    padding: 3px 12px;
+    border-radius: 7px;
+}
+.button_div_auto {
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    margin-top: 2%;
+    background: #050512e8;
+    padding: 4px 10px;
+    border-radius: 20px;
+    align-items: center;
+}
+.card {
+    border-left: 1px solid #181616c7;
+    width: 25%;
+    padding: 2%;
+    height: 25%;
+    background: #0000003d;
+    border-radius: 12px;
+}
+section.card_section {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 4%;
+}
+.secCard.card {
+    background: #ffffffd9;
+    color: #000000e8;
+}
+</style>
+</head>
+<body>
+    <main class="main">
+        <div class="background">
+            <section class="heading_section">
+                <p class="heading">
+                    Simple and transparent price
+                </p>
+                <p class="subheading">
+                    Empower your accounting team with an expense management
+                     platform that works with your existing cards, without burning a hole in your pocket.
+                      Fyle has a straightforward pricing model, based on usage
+                </p>
+            </section>
+            <section class="btn_section">
+                <div class="button_div_auto">
+                    <div class="monthly">Monthly</div>
+                    <div class="annual">Annual (save up to <span style="color:red;">20%</span> )</div>
+                </div>
+            </section>
+            <section class="card_section">
+                <div class="firstCard card">
+                    <div class="card_title">Standard</div>
+                    <div class="card_subTitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, amet.
+                    </div>
+                    <div class="card_price"><span class="doller">$</span>6.99 </div>
+                    <div class="card_price_details"></div>
+                    <div class="card_btn"></div>
+                    <div class="card_details"></div>
+                </div>
+                <div class="secCard card">
+                    <div class="card_title">Standard</div>
+                    <div class="card_subTitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, amet.
+                    </div>
+                    <div class="card_price"><span class="doller">$</span>6.99 </div>
+                    <div class="card_price_details"></div>
+                    <div class="card_btn"></div>
+                    <div class="card_details"></div>
+                </div>
+                <div class="thrCard card">
+                    <div class="card_title">Standard</div>
+                    <div class="card_subTitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, amet.
+                    </div>
+                    <div class="card_price"><span class="doller">$</span>6.99 </div>
+                    <div class="card_price_details"></div>
+                    <div class="card_btn"></div>
+                    <div class="card_details"></div>
+                </div>
+            </section>
+            <section class="section_bottom_text"></section>
+        </div>
+    </main>
+</body>
+</html>
